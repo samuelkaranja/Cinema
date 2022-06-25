@@ -1,0 +1,223 @@
+{% extends 'Film/base.html' %}
+{% load static %}
+
+{% block content %}
+    <section class="film">
+        <div class="content-container">
+            <div class="row">
+                <div class="col-md-12 header">
+                    <h4>Trending movies</h4>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-9">
+                    <div class='banner'>
+                        <div class="carousel owl-carousel owl-theme">
+                            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('{% static "Film/img/dawn.jpg" %}');">
+                                <div class="movie-info">
+                                    <div class="name">
+                                        <h5>Army of the dead</h5>
+                                        <span>2021</span>
+                                    </div>
+                
+                                    <div class="trailer">
+                                        <a href="#" class="c_btn">Watch Trailer</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('{% static "Film/img/extraction.jpeg" %}');">
+                                <div class="movie-info">
+                                    <div class="name">
+                                        <h5>Extraction</h5>
+                                        <span>2021</span>
+                                    </div>
+                
+                                    <div class="trailer">
+                                        <a href="#" class="c_btn">Watch Trailer</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('{% static "Film/img/rednotice.jpg" %}');">
+                                <div class="movie-info">
+                                    <div class="name">
+                                        <h5>Red Notice</h5>
+                                        <span>2021</span>
+                                    </div>
+                
+                                    <div class="trailer">
+                                        <a href="#" class="c_btn">Watch Trailer</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('{% static "Film/img/sas.jpg" %}');">
+                                <div class="movie-info">
+                                    <div class="name">
+                                        <h5>SAS: Red Notice</h5>
+                                        <span>2021</span>
+                                    </div>
+                
+                                    <div class="trailer">
+                                        <a href="#" class="c_btn">Watch Trailer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="action">
+                        <div class="row">
+                            <div class="col-md-12 header">
+                                <h4>Action Movies</h4>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side bar -->
+
+                <div class="col-md-3">
+                    <div class="side">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-8">
+                                    <h5>Popular Movies</h5>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="popular">
+                                        <div class="list">
+                                            <div class="image">
+                                                <img src="{% static "Film/img/wick.jpg" %}">
+                                            </div>
+                                            <div class="info">
+                                                <span class="title">John Wick</span><br>
+                                                <span class="genre">Action, Horror</span><br>
+                                                <span class="imdb">IMDB</span><span class="point">7.2</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="popular">
+                                        <div class="list">
+                                            <div class="image">
+                                                <img src="{% static "Film/img/wick.jpg" %}">
+                                            </div>
+                                            <div class="info">
+                                                <span class="title">John Wick</span><br>
+                                                <span class="genre">Action, Horror</span><br>
+                                                <span class="imdb">IMDB</span><span class="point">7.2</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="popular">
+                                        <div class="list">
+                                            <div class="image">
+                                                <img src="{% static "Film/img/wick.jpg" %}">
+                                            </div>
+                                            <div class="info">
+                                                <span class="title">John Wick</span><br>
+                                                <span class="genre">Action, Horror</span><br>
+                                                <span class="imdb">IMDB</span><span class="point">7.2</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="popular">
+                                        <div class="list">
+                                            <div class="image">
+                                                <img src="{% static "Film/img/wick.jpg" %}">
+                                            </div>
+                                            <div class="info">
+                                                <span class="title">John Wick</span><br>
+                                                <span class="genre">Action, Horror</span><br>
+                                                <span class="imdb">IMDB</span><span class="point">7.2</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <a href="" class="more">See More</a>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-8">
+                                        <h5>Favourite Movies</h5>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="popular">
+                                            <div class="list">
+                                                <div class="image">
+                                                    <img src="{% static "Film/img/hobbit.jpg" %}">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="title">Hobbit 1</span><br>
+                                                    <span class="genre">Adventure, Fantasy</span><br>
+                                                    <span class="imdb">IMDB</span><span class="point">7.2</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="popular">
+                                            <div class="list">
+                                                <div class="image">
+                                                    <img src="{% static "Film/img/hobbit.jpg" %}">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="title">Hobbit 1</span><br>
+                                                    <span class="genre">Adventure, Fantasy</span><br>
+                                                    <span class="imdb">IMDB</span><span class="point">7.2</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="popular">
+                                            <div class="list">
+                                                <div class="image">
+                                                    <img src="{% static "Film/img/hobbit.jpg" %}">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="title">Hobbit 1</span><br>
+                                                    <span class="genre">Adventure, Fantasy</span><br>
+                                                    <span class="imdb">IMDB</span><span class="point">7.2</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="popular">
+                                            <div class="list">
+                                                <div class="image">
+                                                    <img src="{% static "Film/img/hobbit.jpg" %}">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="title">Hobbit 1</span><br>
+                                                    <span class="genre">Adventure, Fantasy</span><br>
+                                                    <span class="imdb">IMDB</span><span class="point">7.2</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href="" class="more">See More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

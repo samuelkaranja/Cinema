@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+	background: #343a40!important;
+}
+
+.content-container{
+    width: 95%;
+	margin: 0 auto;
+}
+
+/* ............NavBar.............. */
+
+.navbar .navbar-brand{
+    color: #d22f27; 
+    margin-left: 40px; 
+    font-size: 27px;
+	font-weight: 700;
+	font-family: cursive;
+}
+
+.navbar .navbar-brand:hover{
+    color: #d22f27; 
+}
+
+.navbar .navbar-nav{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.navbar .form-inline .form-control {
+    border-radius: 50px;
+    width: 80%;
+    padding: 12px 18px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid grey;
+}
+
+/* .........Header........ */
+
+.film .header{
+	margin-top: 10px;
+    margin-left: 15px;
+	color: #fff;
+}
+
+.film .header h4{
+	font-weight: bold;
+}
+
+/* ...........Carousel............. */
+
+.carousel .card{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 320px;
+	color: #fff;
+	margin: 20px 5px;
+    border: none;
+	border-radius: 25px;
+}
+
+.carousel .card .movie-info{
+	position: absolute;
+	bottom: 35px;
+	left: 10px;
+    display: flex;
+    justify-content: space-between;
+	width: 100%;
+}
+
+.carousel .card .movie-info .name h5{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.carousel .card .movie-info .trailer{
+	margin-top: 15px; 
+	margin-right: 25px;
+}
+
+.carousel .card .movie-info .trailer .c_btn{
+	background: #fa8597;
+	color: #fff;
+	border-radius: 50px;
+    padding: 8px 12px;
+	font-size: 13px;
+}
+
+.owl-carousel .owl-nav {
+	overflow: hidden;
+	height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #5110e9;
+}
+
+.owl-carousel .item {
+	text-align: center;
+}
+
+.owl-carousel .nav-button {
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	position: absolute;
+	top: 110px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+	pointer-events: none;
+	opacity: 0.25;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: inline-block;
+}
+
+.owl-carousel .owl-prev {
+	left: -10px;
+}
+
+.owl-carousel .owl-next {
+	right: -10px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+	color: #ffffff;
+	font-size: 25px;
+	background: #c74e61;
+	border-radius: 50px;
+	margin-top: 45px;
+}
+
+.owl-carousel .prev-carousel:hover {
+	background-position: 0px -53px;
+}
+
+.owl-carousel .next-carousel:hover {
+	background-position: -24px -53px;
+}
+
+/* ...........Action Movies........... */
+
+
+
+/* ..............Siderbar............. */
+
+.side h5{
+	color: #fff;
+}
+
+.side .popular .list{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
+}
+
+.side .popular .list .image img{
+	height: 12vh;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.side .popular .list .info{
+	color: #fff;
+	margin-left: -45px;
+}
+
+.side .popular .list .info .title{
+	font-weight: 600;
+}
+
+.side .popular .list .info .genre{
+	color: lightgrey;
+	font-size: 12px;
+}
+
+.side .popular .list .info .imdb{
+	color: #000;
+	background: yellow;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 3px;
+	margin-right: 8px;
+}
+
+.side .popular .list .info .point{
+	font-size: 13px;
+	font-weight: bold;
+	color: lightgrey;
+}
+
+.side .more{
+	background: #d22f27;
+	display: block;
+	margin: 20px auto 0 auto;
+	width: 50%;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+.side .favourite{
+	margin-top: 20px;
+}
